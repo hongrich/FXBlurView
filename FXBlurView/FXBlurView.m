@@ -383,7 +383,7 @@
 {
     if ([view isKindOfClass:NSClassFromString(@"SKView")] ||
         [view.layer isKindOfClass:NSClassFromString(@"CAEAGLLayer")] ||
-        [view.layer isKindOfClass:NSClassFromString(@"AVPlayerLayer")] ||
+//        [view.layer isKindOfClass:NSClassFromString(@"AVPlayerLayer")] ||
         ABS(view.layer.transform.m34) > 0)
     {
         return YES;
